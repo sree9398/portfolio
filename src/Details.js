@@ -3,30 +3,37 @@
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
 // Profile Image
-import profile from "./assets/profile.jpg";
+import profile from "./assets/profile.jpeg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
+// import sass from "./assets/techstack/sass.png";
 import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
-import redux from "./assets/techstack/redux.png";
-import tailwind from "./assets/techstack/tailwind.png";
+import django from "./assets/techstack/django.png";
+import colab from "./assets/techstack/colab.jpeg";
 import bootstrap from "./assets/techstack/bootstrap.png";
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
-import figma from "./assets/techstack/figma.png";
+import nodejs from "./assets/techstack/nodejs.png";
+import java from "./assets/techstack/java.jpeg";
+import python from "./assets/techstack/python.jpeg";
+import cpp from "./assets/techstack/cpp.webp";
+import sql from "./assets/techstack/sql.jpeg";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
+import projectImage2 from "./assets/projects/project2.jpeg";
 import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
-
+//codingplatforms images
+import leetcode from "./assets/techstack/leetcode.jpeg";
+import codeforces from "./assets/techstack/codeforces.png";
+import gfg from "./assets/techstack/gfg.png";
+import codechef from "./assets/techstack/codechef.jpeg";
+import codingninjas from "./assets/techstack/codingninjas.jpeg";
+import atcoder from "./assets/techstack/AtCoder.jpg";
 // Logos
 export const logos = {
   logogradient: logogradient,
@@ -35,60 +42,37 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "SREEKANTH T",
+  tagline: "Competitive programming || Web Dev || MERN",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `I'm a 4th-year B.Tech student at Sree Vidyanikethan Engineering College, Tirupati, studying Computer Science CSE-AIML. I'm passionate about competitive programming and skilled in solving problems. Additionally, I enjoy web development using the MERN stack, where I create dynamic and user-friendly applications.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
+  linkdein: "https://www.linkedin.com/in/sree9398/",
+  github: "https://github.com/sree9398",
   twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  instagram: "https://www.instagram.com/sreekanth.sree__/",
 };
 
-// Enter your Work Experience here
-export const workDetails = [
-  {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-];
+
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
+    Position: "Bachelor of Technology in Computer Science & Engineering with specialization AIML",
+    Company: "Sree Vidyanikethan Engineering College",
+    Location: "Tirupati , Andhra Pradesh",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Duration: "DEC 2021 - MAY 2025",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
+    Position: "Intermediate",
+    Company: "Sri Chaitanya Junior College",
+    Location: "B.Thandrapadu , Kurnool , Andhra Pradesh",
     Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Duration: "JUN 2019 - MAR 2021",
   },
 ];
 
@@ -97,79 +81,85 @@ export const techStackDetails = {
   html: html,
   css: css,
   js: js,
+  django:django,
   react: react,
-  redux: redux,
-  sass: sass,
-  tailwind: tailwind,
   bootstrap: bootstrap,
+  nodejs: nodejs,
   vscode: vscode,
   postman: postman,
   npm: npm,
   git: git,
+  colab:colab,
   github: github,
-  figma: figma,
+  java:java,
+  python:python,
+  cpp:cpp,
+  sq:sql
 };
 
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "SreeFoods - React-Based Food Ordering App ",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `•	SreeFoods is a React-based application focused on making food ordering easy.`,
+    techstack: "HTML/CSS, JavaScript, React ",
+    previewLink: "/",
+    githubLink: "https://github.com/sree9398/SreeFoods",
   },
   {
-    title: "Project title 2",
+    title: "Real Estate Price Prediction Website ",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `•	Developed a real estate price prediction website step-by-step. Utilized Bangalore home prices dataset from Kaggle.com.`,
+    techstack: "HTML/CSS, JavaScript, sklearn , linear regression",
+    previewLink: "/",
+    githubLink: "https://github.com/sree9398/Real-Estate-Price-Prediction-Website",
   },
   {
-    title: "Project title 3",
+    title: "Simple Mail Clone Web App",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `	Developed a simple mail clone web app.`,
+    techstack: "Django (backend) and HTML, CSS, JavaScript, Bootstrap (frontend).",
+    previewLink: "/",
+    githubLink: "https://github.com/sree9398/Simple-Mail-Clone-Application",
   },
-  {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
+  
 ];
 
+export const codingplatforms=[
+    {
+      title:'leetcode',
+      image: leetcode,
+      link:"https://leetcode.com/sree9398/"
+    },
+    {
+      title:'codeforces',
+      image: codeforces,
+      link:"https://codeforces.com/profile/sree9398"
+    },
+    {
+      title:'geeks for geeks',
+      image: gfg,
+      link:"https://auth.geeksforgeeks.org/user/sree9398"
+    },
+    {
+      title:'Atcoder',
+      image: atcoder,
+      link:"https://atcoder.jp/users/sree9398"
+    },
+    {
+      title:'coding ninjas',
+      image: codingninjas,
+      link:"https://www.codingninjas.com/studio/profile/sree9398"
+    },
+    {
+      title:'codechef',
+      image: codechef,
+      link:"https://www.codechef.com/users/sree9398"
+    }
+];
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "telugusreekanth58@gmail.com",
+  phone: "+91 9398299515",
 };

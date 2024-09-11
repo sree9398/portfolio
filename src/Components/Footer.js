@@ -10,11 +10,9 @@ function Footer() {
           target="_blank"
           rel="noreferrer noopener"
         >
-          Pavan MG
+          Sreekanth T
         </a>{" "}
-        with
-        <span className="text-gradient font-medium"> Love</span> &
-        <span className="text-gradient font-medium"> Coffee</span>
+       
       </p>
     </footer>
   );

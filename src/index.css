@@ -25,3 +25,7 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+
+#profile{
+  border-radius: 80vh;
+}
